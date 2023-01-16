@@ -1,0 +1,17 @@
+@import '../../../../styles/variables';
+
+.contentsContainer {
+  .recommend {
+    width: 730px;
+    .recommendTitle {
+      margin-top: 100px;
+      color: $color-main;
+      text-align: center;
+    }
+    .recommendList {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+  }
+}
